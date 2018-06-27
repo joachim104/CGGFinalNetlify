@@ -1,0 +1,114 @@
+body {
+    padding-bottom: 30px;
+}
+.col1  {
+    outline: 2px solid red;
+}
+
+.col-md-3, .col-md-6 {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+}
+
+.header {
+    margin-bottom: 15px;
+}
+
+.images {
+    width: 100%;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #E2CAC7!important;
+    /* height: 40px; */
+    border-radius: 0px !important;
+}
+
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul a:hover { background-color: #C99A99 !important; }
+
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+li {
+    padding-right: 20px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+* {box-sizing: border-box}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.overlay-container {
+  position: relative;
+
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background:white;
+  background: white;
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: #C99A99;
+  font-size: 20px;
+  padding: 8%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.overlay-container:hover .overlay {
+    opacity: 1;
+}
+
+.description-text {
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border: 0 !important;
+    border-top: 1px solid #C99A99 !important;
+    width: 53px !important;
+}
+@media (min-width: 992px) {
+
+}
