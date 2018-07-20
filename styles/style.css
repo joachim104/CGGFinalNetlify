@@ -101,6 +101,8 @@ a {
     font-size: 14px;
 }
 
+
+
 hr {
     margin-top: 5px !important;
     margin-bottom: 5px !important;
@@ -108,6 +110,21 @@ hr {
     border-top: 1px solid #C99A99 !important;
     width: 53px !important;
 }
+
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 50%;
+        width: 50%;
+        /* height: 20px; */
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
 @media (min-width: 992px) {
 
 }
