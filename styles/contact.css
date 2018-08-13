@@ -1,0 +1,52 @@
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        padding-top: 20px;
+        height: 50%;
+        width: 50%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        /* height: 20px; */
+        box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .wine-dot{
+        width: 70%;
+        padding-top: 150px;
+
+    }
+
+p, h3, ul {
+  font-family: 'Roboto', sans-serif;
+}
+  
+    
+    hr {
+        border-top: 1px solid #C99A99 !important;
+    }
+
+    .col-md-8{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    
+    }
+
+    @media (max-width: 992px) {
+      .wine-dot {
+        display: none;
+      }
+    }
+    
+    

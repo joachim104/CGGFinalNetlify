@@ -16,7 +16,7 @@
 }
 
 .header {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 
@@ -24,22 +24,28 @@
     width: 100%;
     padding-top: 10px;
     cursor: pointer;
+    box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
 }
 
 .navbar {
-    background-color: #E2CAC7!important;
+    background-color: white !important;
     /* height: 40px; */
     border-radius: 0px !important;
+    padding-bottom: 30px;
 }
 
 .nav.navbar-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 30px;    
 }
 
-ul a:hover { background-color: #C99A99 !important; }
-
+ul a:hover {
+    background-color: white !important;
+    color: #84050E !important;
+    /* border-bottom: 1px solid #84050E !important; */
+}
 
 .navbar.center .navbar-inner {
     text-align: center;
@@ -49,6 +55,8 @@ ul a:hover { background-color: #C99A99 !important; }
     float: none;
     display:inline-block;
     vertical-align: middle;
+    /* border-bottom: 1px solid #84050E !important; */
+    
 }
 
 li {
@@ -56,8 +64,10 @@ li {
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Old Standard TT', serif;
+    font-size: 17px;
+    /* border-bottom: 1px solid white !important; */
 }
 
 * {box-sizing: border-box}
@@ -88,7 +98,8 @@ a {
   font-size: 20px;
   padding: 8%;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Old Standard TT', serif;
   cursor: pointer;
 }
 
@@ -101,9 +112,7 @@ a {
     font-size: 14px;
 }
 
-
-
-hr {
+.underline {
     margin-top: 5px !important;
     margin-bottom: 5px !important;
     border: 0 !important;
@@ -111,20 +120,8 @@ hr {
     width: 53px !important;
 }
 
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-       #map {
-        height: 50%;
-        width: 50%;
-        /* height: 20px; */
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+
+
 
 @media (min-width: 992px) {
-
 }

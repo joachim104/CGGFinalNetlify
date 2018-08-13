@@ -1,0 +1,42 @@
+.container {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.list-div{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center
+}
+
+.row{
+    padding-bottom: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+.pletten3-img {
+    padding-right: 100px;
+    height: 70px;
+}
+
+.pletten4-img {
+    height: 110px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+hr {
+    border-top: 1px solid #C99A99 !important;
+}
+
+.winebottle1-img {
+    width: 122px;
+    height: 260px;
+    padding-top: 21px;
+}
+

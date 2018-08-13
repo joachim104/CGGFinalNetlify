@@ -12,11 +12,14 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Yatra+One" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="header">
+        <img class="logo" src="assets\logo3.jpg">
+    </div>
     <nav class="navbar py-0 py-md-0 navbar-expand-lg navbar-light center">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -30,49 +33,52 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">History</a>
+                    <a class="nav-link" href="history.html">History</a>
+                    <!-- <hr class="hr-navbar"> -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Vineyard</a>
+                    <a class="nav-link" href="vineyard.html">Vineyard</a>
+                    <!-- <hr class="hr-navbar"> -->
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Winecellar
                     </a>
+                    <!-- <hr class="hr-navbar"> -->
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Reds</a>
-                        <a class="dropdown-item" href="#">Whites</a>
-                        <a class="dropdown-item" href="#">Rosé</a>
+                        <a class="dropdown-item" href="reds.html">Reds</a>
+                        <a class="dropdown-item" href="whites.html">Whites</a>
+                        <a class="dropdown-item" href="rose.html">Rosé</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Order</a>
+                    <a class="nav-link" href="order.html">Order</a>
+                    <!-- <hr class="hr-navbar"> -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
+                    <!-- <hr class="hr-navbar"> -->
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="header">
-        <img class="logo" src="assets\logo3.jpg">
-    </div>
     <div class="container">
         <div class="col-md-3">
             <div class="overlay-container">
-                <img class="images" src="assets\indgangen.jpg" />
-                <div class="overlay">
-                    <p>History</p>
-                    <hr>
-                    <p class="description-text">Our story begins here</p>
-                </div>
-
+                <a href="contact.html">
+                    <img class="images" src="assets\indgangen.jpg" />
+                    <div class="overlay">
+                        <p>History</p>
+                        <hr class="underline">
+                        <p class="description-text">Our story begins here</p>
+                    </div>
+                </a>
             </div>
             <div class="overlay-container">
                 <img class="images" src="assets\traktor.jpg" />
                 <div class="overlay">
                     <p>Order</p>
-                    <hr>
+                    <hr class="underline">
                     <p class="description-text">Buy our delecious wines</p>
                 </div>
             </div>
@@ -82,7 +88,7 @@
                 <img class="images" src="assets\live71146_img_0015.jpg" />
                 <div class="overlay">
                     <p>Wine Cellar</p>
-                    <hr>
+                    <hr class="underline">
                     <p class="description-text">Reds - Whites - Rosé</p>
                 </div>
             </div>
@@ -90,7 +96,7 @@
                 <img class="images" src="assets\awards.jpg" />
                 <div class="overlay">
                     <p>Awards</p>
-                    <hr>
+                    <hr class="underline">
                     <p class="description-text">We have won multiple awards</p>
                 </div>
 
@@ -101,7 +107,7 @@
                 <img class="images" src="assets\cggvineyard.jpg" />
                 <div class="overlay">
                     <p>Vineyard</p>
-                    <hr>
+                    <hr class="underline">
                     <p class="description-text">Excellence from grape to glass</p>
                 </div>
             </div>
@@ -109,17 +115,19 @@
                 <img class="images" style="height: 233px" src="assets\accomodations.jpg" />
                 <div class="overlay">
                     <p>Accomodations</p>
-                    <hr>
+                    <hr class="underline">
                     <p class="description-text">Sleep in our wonderfull surroundings</p>
                 </div>
             </div>
             <div class="overlay-container">
-                <img class="images" src="assets\contact.jpg" />
-                <div class="overlay">
-                    <p>Contact</p>
-                    <hr>
-                    <p class="description-text">Call me maybe</p>
-                </div>
+                <a href="contact.html">
+                    <img class="images" src="assets\contact.jpg" />
+                    <div class="overlay">
+                        <p>Contact</p>
+                        <hr class="underline">
+                        <p class="description-text">Call me maybe</p>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -129,7 +137,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="logo" src="assets/logo2.png"/>
+                    <img class="logo" src="assets/logo2.png" />
                 </div>
                 <div class="col-sm-2">
                     <h5>Get started</h5>

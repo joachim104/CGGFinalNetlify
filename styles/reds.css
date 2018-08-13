@@ -1,0 +1,61 @@
+.container {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.list-div{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center
+}
+
+.row{
+    padding-bottom: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+.pletten3-img {
+    padding-right: 100px;
+    height: 70px;
+}
+
+.pletten4-img {
+    height: 110px;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+
+hr {
+    border-top: 1px solid #C99A99 !important;
+}
+
+.winebottle1-img {
+    width: 103px;
+    height: 270px;
+    padding-top: 21px;
+}
+
+.winebottle2-img {
+    width: 82px;
+    height: 265px;
+    padding-top: 21px;
+}
+
+.winebottle3-img {
+    width: 100px;
+    height: 269px;
+    padding-top: 21px;
+}
+
+.barrel-img {
+    width: 113px;
+    height: 161px;
+    padding-top: 15px;
+
+}
+
