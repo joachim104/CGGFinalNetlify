@@ -1,0 +1,23 @@
+p, h3, ul {
+  font-family: 'Roboto', sans-serif;
+}
+  
+hr {
+    border-top: 1px solid #C99A99 !important;
+}
+
+.col-md-8 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+@media (max-width: 992px) {
+    .wine-dot {
+    display: none;
+    }
+}
+

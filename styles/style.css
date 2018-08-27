@@ -121,6 +121,11 @@ a {
 }
 
 
+hr {
+    border-top: 1px solid #C99A99 !important;
+}
+
+
 
 
 @media (min-width: 992px) {
