@@ -1,18 +1,36 @@
-p, h3, ul {
-  font-family: 'Roboto', sans-serif;
+p, h4, ul {
+    font-family: 'Old Standard TT', serif;
+}
+
+li {
+    font-size: 16px;
+}
+h4 {
+    color: #84050E !important;
+    font-size: 20px !important;
+}
+
+p {
+    font-size: 18px;
 }
   
 hr {
     border-top: 1px solid #C99A99 !important;
 }
 
-.col-md-8 {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    
+.col-md-4 {
+    padding-bottom: 35px;    
+}
+
+.image-col{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price1-img{
+    height: 180px;
 }
 
 @media (max-width: 992px) {

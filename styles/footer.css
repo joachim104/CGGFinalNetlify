@@ -5,6 +5,11 @@
     border-top: 2px solid #84050E;
 }
 
+#frontpage {
+    margin-top: 20px !important;
+    border-top: 2px solid #84050E;
+}
+
 #myFooter .footer-copyright {
     background-color: #E2CAC7;
     padding-top: 3px;

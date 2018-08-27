@@ -58,12 +58,12 @@ ul a:hover {
     /* border-bottom: 1px solid #84050E !important; */
     
 }
-
+f
 li {
     padding-right: 20px;
 }
 
-a {
+a, h3 {
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Old Standard TT', serif;
     font-size: 17px;
@@ -125,6 +125,30 @@ hr {
     border-top: 1px solid #C99A99 !important;
 }
 
+
+/* Featured wines */
+.featured-wines {
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f3f3f3;
+}
+
+.fw-para {
+    margin: 10px;
+    font-size: 18px;
+}
+
+
+.featured-header {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.fw-images{
+    width: 80%;
+}
 
 
 
