@@ -1,16 +1,16 @@
 .wineplant-img{
     width: 100%;
-    transform: rotate(257deg);
+    transform: rotate(270deg);
+    margin-top: 60px;
 }
 
 p, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Har tilføjet denne her. tjek om den ødelægger noget andet */
 .container {
-    /* padding-top: 30px;
-    padding-bottom: 50px; */
-
+    /* margin-bottom: 110px; */
 }
 
 hr {

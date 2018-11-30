@@ -28,6 +28,12 @@
 p, h3, ul {
   font-family: 'Roboto', sans-serif;
 }
+
+.link{
+  font-family: 'Old Standard TT', serif;
+  font-size: 16sspx;
+  color: #84050E;
+}
   
     
     hr {

@@ -8,6 +8,8 @@ li {
 h4 {
     color: #84050E !important;
     font-size: 20px !important;
+    font-family: 'Old Standard TT', serif !important; 
+
 }
 
 p {
@@ -31,6 +33,10 @@ hr {
 
 .price1-img{
     height: 180px;
+}
+
+.footer-text {
+    font-size: 15px;
 }
 
 @media (max-width: 992px) {
