@@ -9,16 +9,17 @@ h2 {
 }
 
 .text {
-    padding-top: 20px;
-    margin-bottom: 50px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 170px;
-    padding-top: 50px;
+    height: 250px;
+    padding-top: 30px;
 }
 
 .center {
@@ -39,4 +40,38 @@ h2 {
     width: 132px;
     float: right;
     cursor: pointer;
+}
+
+.social-networks {
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+.social-networks a {
+    font-size: 32px;
+    /* color: #f9f9f9; */
+  color: #84050E;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+
+.social-networks a:hover {
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: #0077e2;
+}
+
+.instagram:hover {
+    color: #9b6954;
+}
+
+.twitter:hover {
+    color: #00aced;
 }
