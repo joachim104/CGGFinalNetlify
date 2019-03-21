@@ -1,0 +1,47 @@
+p, h4, ul {
+    font-family: 'Old Standard TT', serif;
+}
+
+li {
+    font-size: 16px;
+}
+h4 {
+    color: #84050E !important;
+    font-size: 20px !important;
+    font-family: 'Old Standard TT', serif !important; 
+
+}
+
+p {
+    font-size: 18px;
+}
+  
+hr {
+    border-top: 1px solid #C99A99 !important;
+}
+
+.col-md-4 {
+    padding-bottom: 35px;    
+}
+
+.image-col{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price1-img{
+    height: 180px;
+}
+
+.footer-text {
+    font-size: 15px;
+}
+
+@media (max-width: 992px) {
+    .wine-dot {
+    display: none;
+    }
+}
+
