@@ -20,3 +20,9 @@ hr {
 .col-md-12 {
     padding-left: 43% !important;
 }
+
+@media only screen and (max-width: 600px) {
+    img {
+        display: none;
+    }
+}

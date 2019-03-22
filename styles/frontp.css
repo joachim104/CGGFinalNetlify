@@ -53,8 +53,7 @@ h2 {
 
 .social-networks a {
     font-size: 32px;
-    /* color: #f9f9f9; */
-  color: #84050E;
+    color: #84050E;
     padding: 10px;
     transition: 0.2s;
 }
@@ -74,4 +73,25 @@ h2 {
 
 .twitter:hover {
     color: #00aced;
+}
+
+@media only screen and (max-width: 600px) {
+    .english-flag {
+        height: 40px;
+        width: 80px;
+        cursor: pointer;
+    }
+    
+    .french-flag {
+        height: 40px;
+        width: 80px;
+        cursor: pointer;
+    }
+    .social-networks {
+        display: none;
+    }
+
+    .language {
+        font-size: 15px; 
+    }
 }
