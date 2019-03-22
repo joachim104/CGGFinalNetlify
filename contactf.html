@@ -129,27 +129,19 @@
     <br>
     <br>
 
-    <div id='   '></div>
+    <div id='map'></div>
 
     <div id='footer'></div>
 
 
     <script>
-
         var head = document.getElementsByTagName('head')[0];
-
-        // Save the original method
         var insertBefore = head.insertBefore;
-
-        // Replace it!
         head.insertBefore = function (newElement, referenceElement) {
-
             if (newElement.href && newElement.href.indexOf('//fonts.googleapis.com/css?family=Roboto') > -1) {
-
                 console.info('Prevented Roboto from loading!');
                 return;
             }
-
             insertBefore.call(head, newElement, referenceElement);
         };
         var map;
