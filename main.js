@@ -1,10 +1,3 @@
-if (!document.getElementById('id1')) {
-    var link = document.createElement('link');
-    link.id = 'id1';
-    link.rel = 'stylesheet';
-    link.href = 'styles/style.css';
-    document.head.appendChild(link);
-}
 if (!document.getElementById('id5')) {
     var link = document.createElement('link');
     link.id = 'id5';

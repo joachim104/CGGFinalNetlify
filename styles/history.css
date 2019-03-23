@@ -8,11 +8,6 @@ p, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Har tilføjet denne her. tjek om den ødelægger noget andet */
-.container {
-    /* margin-bottom: 110px; */
-}
-
 hr {
     border-top: 1px solid #C99A99 !important;
 }
