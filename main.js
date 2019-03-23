@@ -1,32 +1,11 @@
-if(!document.getElementById('id1')) {
+if (!document.getElementById('id1')) {
     var link = document.createElement('link');
     link.id = 'id1';
     link.rel = 'stylesheet';
     link.href = 'styles/style.css';
     document.head.appendChild(link);
 }
-if(!document.getElementById('id2')) {
-    var link = document.createElement('link');
-    link.id = 'id2';
-    link.rel = 'stylesheet';
-    link.href = 'https://fonts.googleapis.com/css?family=Roboto:300';
-    document.head.appendChild(link);
-}
-if(!document.getElementById('id3')) {
-    var link = document.createElement('link');
-    link.id = 'id3';
-    link.rel = 'stylesheet';
-    link.href = 'https://fonts.googleapis.com/css?family=Old+Standard+TT|Yatra+One';
-    document.head.appendChild(link);
-}
-if(!document.getElementById('id4')) {
-    var link = document.createElement('link');
-    link.id = 'id4';
-    link.rel = 'stylesheet';
-    link.href = 'styles/footer.css';
-    document.head.appendChild(link);
-}
-if(!document.getElementById('id5')) {
+if (!document.getElementById('id5')) {
     var link = document.createElement('link');
     link.id = 'id5';
     link.rel = 'stylesheet';
@@ -35,14 +14,35 @@ if(!document.getElementById('id5')) {
     link.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
     document.head.appendChild(link);
 }
-if(!document.getElementById('id6')) {
+if (!document.getElementById('id2')) {
+    var link = document.createElement('link');
+    link.id = 'id2';
+    link.rel = 'stylesheet';
+    link.href = 'https://fonts.googleapis.com/css?family=Roboto:300';
+    document.head.appendChild(link);
+}
+if (!document.getElementById('id3')) {
+    var link = document.createElement('link');
+    link.id = 'id3';
+    link.rel = 'stylesheet';
+    link.href = 'https://fonts.googleapis.com/css?family=Old+Standard+TT|Yatra+One';
+    document.head.appendChild(link);
+}
+if (!document.getElementById('id4')) {
+    var link = document.createElement('link');
+    link.id = 'id4';
+    link.rel = 'stylesheet';
+    link.href = 'styles/footer.css';
+    document.head.appendChild(link);
+}
+if (!document.getElementById('id6')) {
     var link = document.createElement('link');
     link.id = 'id6';
     link.rel = 'stylesheet';
     link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css';
     document.head.appendChild(link);
 }
-if(!document.getElementById('id7')) {
+if (!document.getElementById('id7')) {
     var link = document.createElement('link');
     link.id = 'id7';
     link.rel = 'icon';
