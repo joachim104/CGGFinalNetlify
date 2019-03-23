@@ -1,16 +1,16 @@
 
-// if(!document.getElementById('id1')) {
-//     var script = document.createElement('script');
-//     script.id = 'id1';
-//     script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js';
-//     document.head.appendChild(script);
-// }
-// if(!document.getElementById('id2')) {
-//     var script = document.createElement('script');
-//     script.id = 'id2';
-//     script.src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';
-//     document.head.appendChild(script);
-// }
+if(!document.getElementById('id1')) {
+    var script = document.createElement('script');
+    script.id = 'id1';
+    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js';
+    document.head.appendChild(script);
+}
+if(!document.getElementById('id2')) {
+    var script = document.createElement('script');
+    script.id = 'id2';
+    script.src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';
+    document.head.appendChild(script);
+}
 if(!document.getElementById('id3')) {
     var link = document.createElement('link');
     link.id = 'id3';
