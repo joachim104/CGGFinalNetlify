@@ -21,13 +21,13 @@ if (!document.getElementById('id3')) {
     link.href = 'https://fonts.googleapis.com/css?family=Old+Standard+TT|Yatra+One';
     document.head.appendChild(link);
 }
-if (!document.getElementById('id4')) {
-    var link = document.createElement('link');
-    link.id = 'id4';
-    link.rel = 'stylesheet';
-    link.href = 'styles/footer.css';
-    document.head.appendChild(link);
-}
+// if (!document.getElementById('id4')) {
+//     var link = document.createElement('link');
+//     link.id = 'id4';
+//     link.rel = 'stylesheet';
+//     link.href = 'styles/footer.css';
+//     document.head.appendChild(link);
+// }
 if (!document.getElementById('id6')) {
     var link = document.createElement('link');
     link.id = 'id6';
