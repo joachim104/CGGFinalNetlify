@@ -1,74 +1,63 @@
 .container {
-    font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
-.list-div{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center
+.list-div {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
 }
 
-.row{
-    /* padding-bottom: 35px; */
-    margin-bottom: -30px;
+.row {
+  /* padding-bottom: 35px; */
+  margin-bottom: -30px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .pletten3-img {
-    padding-right: 100px;
-    height: 70px;
+  height: 90px;
+  margin-top: 120px;
+  margin-right: 112px;
 }
 
 .pletten4-img {
-    height: 110px;
-    padding-left: 400px;
-    padding-top: 10px;
+  height: 110px;
+  padding-left: 330px;
 }
 
 hr {
-    border-top: 1px solid #C99A99 !important;
+  border-top: 1px solid #c99a99 !important;
 }
 
-.winebottle1-img {
-    width: 103px;
-    height: 270px;
-    padding-top: 21px;
+.winebottle-img {
+  width: 60%;
+  height: 100%;
 }
 
-.winebottle2-img {
-    width: 82px;
-    height: 265px;
-    padding-top: 21px;
+.winebottle-img-thin {
+  width: 70%;
+  height: 100%;
 }
 
-.winebottle3-img {
-    width: 100px;
-    height: 269px;
-    padding-top: 21px;
-}
-
-.barrel-img {
-    width: 113px;
-    height: 161px;
-    padding-top: 15px;
-
+.img-container:not(.left) {
+  display: flex;
+  justify-content: flex-end;
 }
 
 @media only screen and (max-width: 600px) {
-    img {
-        display: none;
-    }
-    .col-md-5 {
-        padding-bottom: 60px;
-    }
-    ul {
-        padding-left: 0;
-    }
+  img {
+    display: none;
+  }
+  .col-md-4 {
+    padding-bottom: 70px;
+  }
+  ul {
+    padding-left: 0;
+  }
 }
-

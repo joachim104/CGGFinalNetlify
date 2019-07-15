@@ -161,5 +161,13 @@ hr {
 
 
 
-@media (min-width: 992px) {
+@media only screen and (max-width: 600px) {
+    .overlay {
+        opacity: 1;
+        padding: 3%;
+    }
+
+    img {
+        height: 300px;
+    }
 }
