@@ -56,14 +56,15 @@
         const page = url.replace(".html", "");
         console.log('Page', page);
         const element = document.getElementById(page);
-        element.classList.add("active");
+        // element.classList.add("active");
 
         if (page == 'frontpage') {
+            console.log('kommer herind');
             const frontpageEle = document.getElementById('frontpage1');
             frontpageEle.className += " active";
-            console.log('kommer herind');
         }
         else {
+            console.log('kommer herind 22');
             element.className += " active";
         }
     }
