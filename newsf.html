@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106741728-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-106741728-2');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/history.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <title>News</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <div class="col-md-8">
+            <h3>Actualités</h3>
+            <hr>
+            <p>Actualités</p>
+            <br>
+        </div>
+        <div class="col-md-4">
+            <img class="wineplant-img" src="assets\vinplanteTINY.jpg" />
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+        $(function () {
+            $("#footer").load("./all/footer.html");
+            $("#header").load("./all/header.html");
+        });
+    </script>
+</body>
+
+</html>
