@@ -52,21 +52,12 @@
     function myFunction() {
         const segments = window.location.href.split("/");
         const url = segments[segments.length - 1];
-        console.log('Page', url);
-        const page = url.replace(".html", "");
+        console.log('URL', url);
         console.log('Page', page);
+        const page = url.replace(".html", "");
         const element = document.getElementById(page);
         // element.classList.add("active");
-
-        if (page == 'frontpage') {
-            console.log('kommer herind');
-            const frontpageEle = document.getElementById('frontpage1');
-            frontpageEle.className += " active";
-        }
-        else {
-            console.log('kommer herind 22');
-            element.className += " active";
-        }
+        element.className += " active";
     }
 
     myFunction();
