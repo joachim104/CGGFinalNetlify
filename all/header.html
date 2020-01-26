@@ -53,8 +53,8 @@
         const segments = window.location.href.split("/");
         const url = segments[segments.length - 1];
         console.log('URL', url);
-        console.log('Page', page);
         const page = url.replace(".html", "");
+        console.log('Page', page);
         const element = document.getElementById(page);
         // element.classList.add("active");
         element.className += " active";
