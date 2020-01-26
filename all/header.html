@@ -10,7 +10,7 @@
         </button>
         <div class="collapse navbar-collapse navbar-inner" id="navbarNavDropdown">
             <ul class="nav navbar-nav">
-                <li class="nav-item" id="frontpage1">
+                <li class="nav-item" id="frontpage">
                     <a class="nav-link" href="frontpage.html">Home</a>
                 </li>
                 <li class="nav-item" id="history">
@@ -56,7 +56,8 @@
         const page = url.replace(".html", "");
         console.log('Page', page);
         const element = document.getElementById(page);
-        element.classList.add("active");
+        // element.classList.add("active");
+        element.className += " active";
     }
 
     myFunction();
