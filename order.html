@@ -17,14 +17,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/rose.css">
+    <link rel="stylesheet" type="text/css" href="styles/history.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
-    <title>Rosé</title>
+    <title>Order</title>
 </head>
 
 <body>
-
     <div class="header">
         <a href="frontpage.html">
             <img class="logo" src="assets\LogoGG_2018_2_actualized.png"> </a>
@@ -43,18 +42,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="history.html">History</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="order.html">Order</a>
+                    <span class="sr-only">(current)</span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="vineyard.html">Vineyard</a>
                 </li>
-                <li class="nav-item active dropdown">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Winecellar
                     </a>
-                    <!-- <hr class="hr-navbar"> -->
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="reds.html">Reds</a>
                         <a class="dropdown-item" href="whites.html">Whites</a>
@@ -63,58 +62,25 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="awards1.html">Awards & Press</a>
-                    <!-- <hr class="hr-navbar"> -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
-                    <!-- <hr class="hr-navbar"> -->
                 </li>
             </ul>
         </div>
     </nav>
     <div class="container">
-        <h3>
-            <strong>Rosé</strong>
-        </h3>
-        <hr>
-        <div class="row">
-
-            <div class="col-md-5 col-md-offset-3">
-                <h4>
-                    Beaujolais Villages AOP
-                </h4>
-                <h5 style="color: #84050E;">Rosé</h5>
-                <p>
-                    Our Gamay-based rosé possesses a fresh aroma of red berries, such as gooseberry and raspberry, with
-                    a hint of citrus (grapefruit). This wine may be served as an aperatif or can be a fine accompaniment
-                    to grilled meats and crudités. The wine is best enjoyed while it is young.
-                </p>
-                <div class="list-div">
-                    <ul>
-                        <li>
-                            <strong>Variety:</strong> Chardonnay
-                        </li>
-                        <li>
-                            <strong>Aging:</strong> 50% tank, 50% barrels
-                        </li>
-                        <li>
-                            <strong>Production:</strong> 2,000 - 3,000 bottles
-                        </li>
-                        <li>
-                            <strong>Storage:</strong> 1 - 2 years
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="">
-                <img class="winebottle1-img" src="assets/new-wine-images/large-rose-2018.png" alt="Image description"
-                    title="">
-            </div>
-            <img class="pletten4-img" src="assets\pletten4.jpg">
+        <div class="col-md-8">
+            <h3>Order wine</h3>
+            <hr>
+            <a href="https://www.restonsenvigne.fr/domaines/chateau-grand-grange">Click here to order our wine</a>
+        </div>
+        <div class="col-md-4">
+            <img class="wineplant-img" src="assets\vinplanteTINY.jpg" />
         </div>
     </div>
 
-    <div id='footer'></div>
+    <div id="footer"></div>
 
     <script>
         $(function () {
@@ -122,6 +88,5 @@
         });
     </script>
 </body>
-
 
 </html>
